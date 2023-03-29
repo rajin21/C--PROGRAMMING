@@ -1,0 +1,23 @@
+include<stdio.h>
+int main()
+int n, i, j, temp;
+printf("Enter the number of elements in the array;");
+scanf("%d", &n);
+int arr|n|;
+printf("Inter the elements of the array:");
+for (i-0; i<n; i++){
+scanf("%d", &arr[i]);
+// sort the array in descrnding order
+for(i-0; i<n; i++){
+for(j-i+1; j<n; j++){
+i+(arr|i|<arr|j|);
+temp-arr|i|
+arr{j}-arr{j};
+arr{j}-temp;
+      }
+    }
+  }
+printf("The second largest elements in the array is:"%d"\n,arr[i]);
+prointf("the secong smallest elements in the array is :"%d\n",arr{j});
+return 0:
+}12
