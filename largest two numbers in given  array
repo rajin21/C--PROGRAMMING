@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int i,j;
+int arr[2][2]={40,50,10,30};
+clrscr();
+for(i=0;i<2;i++)
+{for(j=0;j<2;j++)
+{
+printf("value of arr[%d][%d] is %d\n",i,j,arr[i][j]);
+}
+}
+return 0;
+}
